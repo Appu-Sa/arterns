@@ -1,0 +1,226 @@
+.usercontainer {
+  height: 100vh;
+  width: 100vw;
+  background-color: #00adb5;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10%;
+  padding: 10px;
+}
+
+.logo {
+  margin-left: 15px;
+}
+
+.logo h3 {
+  font-family: Archivo Black;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 43.52px;
+  text-align: left;
+}
+
+.usericons {
+  width: 70px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.usericons ion-icon {
+  height: 30px;
+  width: 30px;
+}
+
+.usercontent {
+  height: 90%;
+  width: 100vw;
+  display: flex;
+}
+
+.usersidebar {
+  height: 100%;
+  width: 18%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.usercard {
+  margin-bottom: 40px;
+}
+
+.usercard img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 5px;
+}
+
+.usercard p {
+  margin-bottom: 5px;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.cardbtn {
+  width: 110px;
+  height: 30px;
+  background: #8015a7;
+  gap: 10px;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.lists :first-child {
+  background: #8015a7;
+  color: white;
+}
+
+.listbtn {
+  width: 160px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+}
+.maincontent {
+  width: 82%;
+  border: solid 10px #8015a7;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 1px;
+  overflow: hidden;
+  background-color: #8015a7;
+}
+
+.userdash {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f7f7;
+  border-radius: 6px;
+}
+
+.innernav {
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  width: 365px;
+  height: 40px;
+  justify-content: space-evenly;
+}
+
+.leftbtn,
+.rightbtn {
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  background: #f9f7f7;
+}
+
+.leftbtn img {
+  width: 130px;
+  height: 130px;
+  margin-left: -40px;
+}
+
+.right :first-child {
+  color: #8015a7;
+  font-weight: 700;
+}
+
+.personal {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.personal span {
+  width: 180;
+  height: 50;
+  background-color: #8015a7;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 896px) {
+  .usercard img {
+    width: 65px;
+    height: 65px;
+  }
+
+  .usercard p {
+    font-size: 10px;
+  }
+
+  .cardbtn {
+    width: 80px;
+    height: 22px;
+  }
+
+  .listbtn {
+    width: 120px;
+    height: 22px;
+  }
+
+  .logo h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 648px) {
+  .usercard img {
+    width: 48px;
+    height: 48px;
+  }
+
+  .usercard p {
+    font-size: 7px;
+  }
+
+  .cardbtn {
+    width: 80px;
+    height: 22px;
+  }
+
+  .listbtn {
+    width: 90px;
+    height: 22px;
+  }
+
+  .logo h3 {
+    font-size: 15px;
+  }
+}

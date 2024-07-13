@@ -1,0 +1,182 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+}
+
+h3 {
+  font-weight: 400;
+  font-family: Archivo Black;
+  font-size: 28px;
+  line-height: 30.14px;
+  padding-left: 20px;
+}
+
+.formcontainer {
+  width: 320px;
+  height: 450px;
+  padding: 20px;
+  background-color: #f9f7f7;
+}
+
+.form {
+  width: 280px;
+  height: 225px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 5px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+h5 {
+  font-family: Archivo Black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14.23px;
+}
+
+.formtext {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  gap: 5px;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+label {
+  font-size: 12px;
+}
+
+input {
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e1edf9;
+}
+
+.loginbtn {
+  width: 255px;
+  height: 30px;
+  background: #8015a7;
+  gap: 10px;
+  border: none;
+  margin-top: 10px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.foot {
+  width: 389px;
+  height: 40px;
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+.foot p {
+  font-size: 10px;
+}
+
+.imagecontainer {
+  width: 320px;
+  height: 450px;
+  background: linear-gradient(205.93deg, #00adb5 0%, #8015a7 61.66%);
+  text-align: center;
+  position: relative;
+}
+
+.imagecontainer img {
+  width: 320px;
+  height: 360px;
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 648px) {
+  .formcontainer {
+    width: 240px;
+  }
+
+  .imagecontainer {
+    width: 240px;
+  }
+
+  .imagecontainer img {
+    width: 240px;
+    height: 270px;
+    margin-top: 80px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .foot p {
+    font-size: 5px;
+  }
+
+  .form {
+    width: 210px;
+    margin-left: -3px;
+  }
+
+  .loginbtn {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 480px;
+    background-color: white;
+  }
+  .formcontainer {
+    width: 180px;
+    height: 330px;
+  }
+
+  .imagecontainer {
+    width: 180px;
+    height: 330px;
+  }
+
+  .imagecontainer img {
+    width: 180px;
+    height: 200px;
+    margin-top: 80px;
+  }
+
+  h3 {
+    font-size: 13px;
+  }
+
+  h5 {
+    font-size: 10px;
+  }
+
+  .foot {
+    margin-top: 50px;
+  }
+
+  .foot p {
+    font-size: 3px;
+  }
+
+  .form {
+    width: 155px;
+    height: 160px;
+    margin-left: -5px;
+  }
+
+  .loginbtn {
+    width: 100px;
+  }
+}
